@@ -44,9 +44,6 @@ If you don't intend on doing that, just use the websites made for this repositor
 
 ## Project Structure
 
-- `static/` - Contains CSS, JavaScript, and image files.
-- `templates/` - Holds HTML files rendered by Flask.
+- `games/` - Contains all the games files and everything they need
 - `main.py` - The Flask application running the server.
-
-## License
-MIT License. See `LICENSE` for details.
+  
