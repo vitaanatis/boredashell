@@ -1,12 +1,15 @@
 # Games Website
 
-Welcome to the Games Website repository! This project hosts a variety of classic games built with HTML, CSS, and JavaScript.
+Welcome to the Games Website repository! This README.md file will give you all the information you need to start local hosting this games server!
+If you don't intend on doing that, just use the websites made for this repository.
 
 ## Setup Instructions
 
 ### Prerequisites
 - Python 3.7 or higher
 - Flask library
+- Webbrowser library
+- Threading library
 
 ### Installation
 
@@ -22,7 +25,7 @@ Welcome to the Games Website repository! This project hosts a variety of classic
    If you don't have Flask installed, run:
 
    ```bash
-   pip install flask
+   pip install flask webbrowser threading 
    ```
 
 3. **Run the Flask server:**
@@ -30,20 +33,17 @@ Welcome to the Games Website repository! This project hosts a variety of classic
    Inside the project directory, run:
 
    ```bash
-   python main.py
+   python local_hosting.py
    ```
 
    This will start the server locally.
 
 4. **Access the website:**
 
-   Open a browser and navigate to `http://127.0.0.1:5000` to view the site.
+   It will automatically open your browser and go to the website!
 
 ## Project Structure
 
-- `static/` - Contains CSS, JavaScript, and image files.
-- `templates/` - Holds HTML files rendered by Flask.
+- `games/` - Contains all the games files and everything they need
 - `main.py` - The Flask application running the server.
-
-## License
-MIT License. See `LICENSE` for details.
+  
