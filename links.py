@@ -11,7 +11,7 @@ def generate_links(games_directory):
         folders = [f for f in os.listdir(games_directory) if os.path.isdir(os.path.join(games_directory, f))]
         for folder in folders:
             formatted_name = format_folder_name(folder)
-            link = f"<a href=\"/games/{folder}/index.html\">{formatted_name}</a><br>"
+            link = f"<a href=\"games/{folder}/index.html\">{formatted_name}</a><br>"
             for char in link:
                 keyboard.type(char)
                 time.sleep(0.01)
