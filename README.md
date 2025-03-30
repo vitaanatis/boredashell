@@ -1,6 +1,6 @@
-# Games Website
+# Bored As Hell
 
-Welcome to the Games Website repository! This README.md file will give you all the information you need to start local hosting this games server!
+Welcome to the Bored As Hell repository! This README.md file will give you all the information you need to start local hosting this games server!
 If you don't intend on doing that, just use the websites made for this repository.
 
 ## Setup Instructions
